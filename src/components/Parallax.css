@@ -1,0 +1,39 @@
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .layer1 {
+    background-image: url('../img/w2 without men 1.png');
+    z-index: -1;
+    width: 100%;
+    height:inherit;
+    background-repeat: no-repeat;
+ 
+  }
+  
+  .layer2 {
+    background-image: url('../img/WORKSHOP 1.png');
+    opacity: 1;
+    background-position-y: -50px;
+  
+  }
+  
+  .layer3 {
+    background-image: url('../img/w1 2.png');
+    opacity: 1;
+    background-size: cover;
+  }
+  
+  
